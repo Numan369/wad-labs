@@ -1,0 +1,68 @@
+
+body{
+    background-color: antiquewhite;
+}
+
+header{
+    text-align: center;
+    background-color: blanchedalmond;
+}
+h6{
+    margin: 0;
+    font-size:1em;
+    background-color: burlywood;
+    padding: 10px;
+    color: black;
+}
+n{
+    background-color: black;
+    color: antiquewhite;
+}
+
+a[href*="Nav"]{
+    color:antiquewhite;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 7x;
+}
+
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+p,li{
+    text-align: center;
+   
+}
+    p{
+    text-align: center;
+}
+
+ol,ul{
+    list-style-position: inside;
+}
+
+
+figure{
+    text-align: center;
+}
+
+
+figcaption{
+    font-style: italic;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color:grey;
+}
+a:active{
+    color:skyblue
+}
+
