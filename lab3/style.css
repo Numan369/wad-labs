@@ -1,0 +1,112 @@
+:root{
+    --color:antiquewhite;
+  --color2:black;                 /*   defining variable */
+    
+}
+body{
+    /* seetting space betwenleters ans between words for bteer vsibility and readibility */
+   
+     background-color: var(--color);    /* seeting backgrounf clr of body */
+    font-weight: 400px;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+}
+
+header{
+    text-align: center;
+    background-color: blanchedalmond;
+}
+h6{
+    margin: 0;
+    font-size:1em;
+    background-color: burlywood;
+     padding: 10px;           /* for spacing */
+    color: var(--color2);
+    
+}
+ n{             /*user defined variable and seeting bacckgroung */
+    background-color: var(--color2);
+    color: var(--color);
+    
+}
+ #img{                      /*setting height and width ofthe image */
+    height: 20px;
+    width: 20px;
+}
+
+
+ a[href*="Nav"]{                    /*setting color size and spacing of navugation links*/
+    color:var(--color);
+    font-size: 1em;
+    font-weight: bold;
+    padding: 7x;
+}
+
+
+
+figure{   /* setting the figatcaptin in the centre */
+    text-align: center;
+}
+
+
+figcaption{
+    font-style: italic;
+}
+
+
+ a{             /*removing the line below links */
+    text-decoration: none;
+   transition: 0.3s ease-in-out;
+}
+
+ a:hover{                                 /*when links clciked they should changecoor and size*/
+    color:grey;
+   
+    font-size: 1.2em;
+}
+a:active{
+    color:skyblue
+}
+div{
+    
+    /*border:solid 3px red;*/
+   
+    width: 524px;
+
+    
+}
+
+ #prf{                                      /*setting padding and height of picture inside the profile card*/
+
+    padding: 20px;
+   border-radius: 50%;    /*for circular frame   */
+    height: 100px;
+
+    
+}
+ #card{         /*setting the border margin backfgroung color and addimg shadow margin andpadding  */
+    border: solid 2px blue;
+    margin: 100px;
+  
+    display: flex;
+    height: 170px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 2px 2px;
+   padding: 4px;
+    margin:auto;
+    background-image: url("QAU.jpg");
+    background-color: (255, 255, 255, 0.3);
+  
+   
+}
+
+#info{
+    display: inline; 
+    /* text-align: center; */
+     /*display:inline; */
+}
+footer{
+    text-align: center;
+}
