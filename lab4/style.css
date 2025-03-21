@@ -1,0 +1,124 @@
+:root{
+   
+    --color1: black;
+}
+h6{
+    margin: 0;
+    font-size:1em;
+    background-color: burlywood;
+     padding: 10px;           /* for spacing */
+   
+    
+}
+#img{                      /*setting height and width ofthe image */
+    height: 20px;
+    width: 20px;
+}
+body{
+/* background-color:#FFC8DD;
+ /* /background-color: #00B4D8; */
+ background-color: #A9DEF9;
+ background-image: url(Image.jpg);
+
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+
+ word-spacing: 1px;
+ letter-spacing: 0.5px;
+}
+
+table{
+    border:solid var(--color1);
+    border-collapse: collapse;
+    /*  */
+    margin-left: 35%;
+    border-radius: 9px;
+}
+
+td{
+    border:solid var(--color1);
+    padding: 9px;
+}
+thead tr{
+    background-color:brown;
+}th{
+    padding:0.75em;
+}
+
+
+  
+tr:nth-child(even){
+     background-color: #FFD6FF;
+ }
+ tr:nth-child(odd){
+   
+    background-color: #E7C6FF;
+ }
+legend{
+font-weight: bold;
+}
+tr:hover{
+background-color:aqua;
+ }
+ footer{
+    text-align: center;
+    color:antiquewhite
+ }
+ 
+ fieldset{
+    margin-top: 5%;
+    width: 20%;
+    margin-left: 40%;
+    background-color: #CAF0F8;
+    border-radius: 9px;
+ }
+ 
+ #l1, #l2,#l3,#l4,#l5{
+    padding: 6%;
+ }
+ 
+ a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    transition: 0.4s ease-in-out;
+    
+ }
+ nav{
+    background-color:green;
+    font-size: 1.5em;
+    
+    
+ }
+ nav a:hover{
+    color: blue;
+ }
+#h3{
+    text-align: center;
+    font-size: 1.5em;
+}
+#Nav3{
+    border: solid var(--color1);
+    border-radius: 9px;
+    padding:1%;
+    margin: 5%;
+    /* background-color: #D4E79E; */
+    /* background-color: red; */
+    background-color: #90E0EF;
+
+    
+}
+#l6{
+    margin-left: auto;
+    /* display: block; */
+ }
+ caption{
+    background-color: aqua;
+    color: aqua;
+ }
+ #s1{
+   text-align: center;
+    color: black;
+    font-size:1.5em;
+ }
