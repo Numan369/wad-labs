@@ -1,0 +1,160 @@
+:root{
+    --color:antiquewhite;
+  --color2:black;                 /*   defining variable */
+    
+}
+body{
+    /* seetting space betwenleters ans between words for bteer vsibility and readibility */
+   
+     background-color: var(--color);    /* seeting backgrounf clr of body */
+    font-weight: 400px;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+}
+
+header{
+    text-align: center;
+    background-color: blanchedalmond;
+    text-align: center;
+}
+h6{
+    margin: 0;
+    font-size:1em;
+    background-color: burlywood;
+     padding: 10px;           /* for spacing */
+    color: var(--color2);
+    
+}
+ nav{             /*user defined variable and seeting bacckgroung */
+    background-color: var(--color2);
+    color: var(--color);
+    
+}
+ #img{                      /*setting height and width ofthe image */
+    height: 20px;
+    width: 20px;
+}
+
+
+ a[href*="Nav"]{                    /*setting color size and spacing of navugation links*/
+    color:var(--color);
+    font-size: 1em;
+    font-weight: bold;
+    padding: 7x;
+}
+
+header{
+    text-align: left;
+}
+
+figure{   /* setting the figatcaptin in the centre */
+    text-align: center;
+}
+
+
+figcaption{
+    font-style: italic;
+}
+
+
+ a{             /*removing the line below links */
+    text-decoration: none;
+   transition: 0.3s ease-in-out;
+}
+
+ a:hover{                                 /*when links clciked they should changecoor and size*/
+    color:grey;
+   
+    font-size: 1.2em;
+}
+a:active{
+    color:skyblue
+}
+
+}
+
+ #prf{                                      /*setting padding and height of picture inside the profile card*/
+
+    padding: 20px;
+   border-radius: 50%;    /*for circular frame   */
+    height: 100px;
+
+    
+}
+ #card{         /*setting the border margin backfgroung color and addimg shadow margin andpadding  */
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  
+    border: solid 2px blue;
+    
+    height: 170px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 2px 2px rgba(0, 0, 0, 0.2);
+   padding: 20px;
+    margin:auto;
+    background-image: url("QAU.jpg");
+    background-color: rgba(255, 255, 255, 0.7);
+  
+   
+}
+#prf{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
+}
+#info{
+   color: #333;
+   font-size: 14px;
+   line-height: 1.5;
+   text-shadow: 0 0 2px white;
+   
+}
+footer{
+    text-align: center;
+}
+
+.container{
+   
+    display: grid;
+    gap: 10px;
+    width: 100%;
+    /* grid-template-columns: 1fr; */
+    /* grid-template-rows: 1fr 1fr 3fr 1fr; */
+  
+    grid-template-areas: "a1"
+                         "a2"
+                         "a3"
+                         "a4"
+                         "a5"
+                         ;
+                        
+    
+}
+
+.a1{
+    grid-area: a1;
+    /* text-align: center; */
+}
+.a2{
+    grid-area: a2;
+    /* text-align: center; */
+}
+.a3{
+    grid-area: a3;
+    /* text-align: center; */
+}
+.a4{
+    grid-area: a4;
+    /* text-align: center; */
+}
+.a5{
+    grid-area: a5;
+    /* text-align: center; */
+}
