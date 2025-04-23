@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>My Tailwind CSS Webpage</title>
+  </head>
+  <body class="bg-sky-300 ">
+    
+    <header class="bg-[url(https://cdn.pixabay.com/photo/2015/04/15/01/28/background-723052_1280.jpg)] text-white">
+      <div class="mx-auto p-4 flex justify-between items-center">
+        <h1 class="text-xl font-bold">My First Webpage in Tailwind</h1>
+        <nav>
+          <ul class="flex space-x-4">
+            <li><a href="#nav1" class="text-white hover:underline hover:text-green-200">Paragraph</a></li>
+            <li><a href="#nav2" class="text-white hover:underline hover:text-green-200">Card</a></li>
+            <li><a href="#nav3" class="text-white hover:underline hover:text-green-200">Table</a></li>
+            <li><a href="#nav4" class="text-white hover:underline hover:text-green-200">Footer</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+      <div id="nav1" class="my-8 p-4 bg-orange-200 tracking-widest" >
+        <p>
+        I am creating my first webpage in Tailwind CSS. It is very hard as we have to memorize the classes. Tailwind CSS can initially feel overwhelming for newcomers due to its unconventional approach to styling. Unlike traditional CSS frameworks that offer pre-designed components, Tailwind requires you to build your designs using utility classes. This can mean memorizing a myriad of class names and understanding how to combine them effectively. Additionally, the lack of predefined templates might be daunting for those accustomed to plug-and-play solutions. While Tailwind’s flexibility is its strength, it also means designers and developers have to invest time in mastering its methodology, which might slow down initial adoption."
+        </p>
+
+    </div>
+
+<hr>
+
+   <div id="nav2" class="flex flex-col sm:flex-row my-6 mx-auto p-10 bg-orange-200 rounded-xl justify-center max-w-xl">
+    <img class= "h-40 rounded-full mx-auto sm:mx-6 mb-4 sm:mb-0"src="https://thumbs.dreamstime.com/b/default-avatar-profile-icon-social-media-user-image-gray-blank-silhouette-vector-illustration-305504015.jpg" alt="" >
+    <p class="flex flex-col justify-center justify-items-center text-center sm:text-left" >
+    <strong >Name : Numan Khan</strong>
+    <strong>Programme :  BS</strong>
+    <strong>Department : CS</strong> 
+    <strong>Semester : 6th</strong>
+    <strong>Batch : 2026</strong>
+    </p>
+   </div>
+
+<hr>
+
+<div  class="max-w-100 mx-auto">
+   <strong>Table</strong> 
+<table id="nav3" class="w-full table-auto border-collapse text-sm bg-blue-600">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Marks</th>
+        </tr>
+    </thead>
+    <tbody class="bg-white dark:border-black">
+        <tr>
+            <td class="border-b border-black p-4 pl-8 dark:border-black  bg-orange-200">Tanveer</td>
+            <td class="border-b border-black p-4 pl-8 dark:border-black  bg-orange-200">WAD</td>
+            <td class="border-b border-black p-4 pl-8 dark:border-black  bg-orange-200">74</td>
+        </tr>
+        <tr>
+            <td class="border-b border-black p-4 pl-8 dark:border-black  bg-orange-200">Saqib</td>
+            <td class="border-b border-black p-4 pl-8 dark:border-black  bg-orange-200">WAD</td>
+            <td class="border-b border-black p-4 pl-8 dark:border-black bg-orange-200">76</td>
+        </tr>
+        <tr>
+            <td class="border-b border-black p-4 pl-8 dark:border-black bg-orange-200">Niazi</td>
+            <td class="border-b border-black p-4 pl-8 dark:border-black bg-orange-200">WAD</td>
+            <td class="border-b border-black p-4 pl-8  dark:border-black bg-orange-200">79</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+
+<br><hr><br>
+
+
+<div>
+    <footer id="nav4" class="bg-blue-600 text-white">
+      <div class="p-4 text-center">
+        © 2025 My Tailwind Webpage. All rights reserved.
+      </div>
+    </footer>
+</div>
+
+  </body>
+</html>
